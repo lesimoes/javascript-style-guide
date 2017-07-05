@@ -1,17 +1,17 @@
-{
-  "extends": "airbnb",
-  "rules": {
-    "semi": "never",
-    "space-before-function-paren": [2, "always"],
-    "comma-dangle": [
+module.exports = {
+  extends: ['airbnb-base'],
+  rules: {
+    semi: [2, 'never'],
+    'space-before-function-paren': [2, 'always'],
+    'comma-dangle': [
       'error',
       {
         arrays: 'always-multiline',
         objects: 'always-multiline',
         imports: 'always-multiline',
         exports: 'always-multiline',
-        functions: 'never'
-      }
-    ]
-  }
+        functions: 'never',
+      },
+    ],
+  },
 }
