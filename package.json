@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-pagarme",
+  "version": "1.0.0",
+  "description": "Pagarme's JS ESLint config, following our styleguide",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pagarme/javascript-style-guide.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "pagarme",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Pagar.me Pagamentos S/A <@pagarme>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pagarme/javascript-style-guide/issues"
+  },
+  "homepage": "https://github.com/pagarme/javascript-style-guide#readme",
+  "peerDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.6.1"
+  },
+  "dependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
