@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-pagarme",
+  "name": "eslint-config-pagarme-base",
   "version": "1.0.0",
-  "description": "Pagarme's JS ESLint config, following our styleguide",
+  "description": "Base Pagar.me's JS ESLint config, following our styleguide",
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
