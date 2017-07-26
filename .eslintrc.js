@@ -13,5 +13,12 @@ module.exports = {
         functions: 'never',
       },
     ],
+    'max-len': [
+      'error',
+      {
+        code: 80,
+        tabWidth: 2,
+      },
+    ],
   },
 }

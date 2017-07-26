@@ -28,7 +28,6 @@ function transaction (amount) {
 
 ## Comma dangle always on multiline except on functions
 
-
 Wrong:
 ```js
 const array = [1, 2, 3,]
@@ -95,3 +94,7 @@ Object.assign(
 )
 ```
 
+## Maximum Line Length
+
+Avoid having lines of code that are longer than 100 characters (including
+whitespace).
