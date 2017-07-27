@@ -96,5 +96,5 @@ Object.assign(
 
 ## Maximum Line Length
 
-Avoid having lines of code that are longer than 100 characters (including
+Avoid having lines of code that are longer than 80 characters (including
 whitespace).
