@@ -20,11 +20,7 @@
     "url": "https://github.com/pagarme/javascript-style-guide/issues"
   },
   "homepage": "https://github.com/pagarme/javascript-style-guide#readme",
-  "peerDependencies": {
-    "eslint": "3.19.0",
-    "eslint-plugin-import": "2.6.1"
-  },
   "dependencies": {
-    "eslint-config-airbnb-base": "11.2.0"
+    "eslint-config-airbnb-base": "11.3.1"
   }
 }
