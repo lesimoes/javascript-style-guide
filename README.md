@@ -12,7 +12,7 @@ The rules described in this repository are also available as a eslint
 config package. To install the package and its dependencies:
 
 ```shell
-$ npm install --save-dev eslint@4.3.0 \
+$ npm install --save-dev eslint@4.7.2 \
                          eslint-plugin-import@2.7.0 \
                          eslint-config-pagarme-base
 ```
@@ -51,6 +51,22 @@ Right:
 function transaction (amount) {
 
 }
+```
+
+### Linebreaks inside function parentheses
+
+Wrong:
+```js
+transaction(amount,
+  installments)
+```
+
+Right:
+```js
+transaction(
+  amount,
+  installments
+)
 ```
 
 ### Comma dangle always on multiline except on functions
