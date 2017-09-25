@@ -13,6 +13,7 @@ module.exports = {
         functions: 'never',
       },
     ],
+    'function-paren-newline': ['error', 'multiline'],
     'max-len': [
       'error',
       {
