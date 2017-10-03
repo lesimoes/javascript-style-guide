@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     semi: [2, 'never'],
     'space-before-function-paren': [2, 'always'],
+    'max-params': ["error", { max: 3 }],
     'comma-dangle': [
       'error',
       {
