@@ -141,3 +141,9 @@ Object.assign(
 
 Avoid having lines of code that are longer than 80 characters (including
 whitespace).
+
+
+### Maximum params in function definition
+
+A function should have no more than 3 parameters. Consider using an `options` object
+parameter if you need to pass in more values to a function.
