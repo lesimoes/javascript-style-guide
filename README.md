@@ -147,3 +147,22 @@ whitespace).
 
 A function should have no more than 3 parameters. Consider using an `options` object
 parameter if you need to pass in more values to a function.
+
+### Multiple Empty Lines
+
+Disallow the use of 2+ empty lines in the middle of the code.
+
+Wrong:
+```js
+const a = 'This is a test'
+
+
+console.log(a)
+```
+
+Right:
+```js
+const a = 'This is a test'
+
+console.log(a)
+```
