@@ -12,8 +12,8 @@ The rules described in this repository are also available as a eslint
 config package. To install the package and its dependencies:
 
 ```shell
-$ npm install --save-dev eslint@4.7.2 \
-                         eslint-plugin-import@2.7.0 \
+$ npm install --save-dev eslint@5.3.0 \
+                         eslint-plugin-import@2.16.0 \
                          eslint-config-pagarme-base
 ```
 

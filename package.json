@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pagarme-base",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Base Pagar.me's JS ESLint config, following our styleguide",
   "main": ".eslintrc.js",
   "repository": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/pagarme/javascript-style-guide#readme",
   "dependencies": {
-    "eslint-config-airbnb-base": "12.0.0"
+    "eslint-config-airbnb-base": "13.1.0"
   }
 }
