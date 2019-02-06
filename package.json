@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/pagarme/javascript-style-guide#readme",
   "dependencies": {
-    "eslint-config-airbnb-base": "12.0.0"
+    "eslint-config-airbnb-base": "13.1.0"
   }
 }
