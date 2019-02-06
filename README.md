@@ -13,7 +13,7 @@ config package. To install the package and its dependencies:
 
 ```shell
 $ npm install --save-dev eslint@5.3.0 \
-                         eslint-plugin-import@2.15.0 \
+                         eslint-plugin-import@2.16.0 \
                          eslint-config-pagarme-base
 ```
 
